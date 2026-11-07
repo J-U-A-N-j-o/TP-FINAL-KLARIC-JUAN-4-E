@@ -1,0 +1,85 @@
+
+
+Contacto · HTML
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Zona PS5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+ 
+    <header>
+        <img src="img/logo.svg" alt="Logo de Zona PS5">
+        <div>
+            <h1>Zona PS5</h1>
+            <p>Todo sobre los mejores juegos de PlayStation 5.</p>
+        </div>
+    </header>
+ 
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="juegos.html">Juegos</a>
+        <a href="consola.html">Consola</a>
+        <a href="contacto.html" class="activo">Contacto</a>
+    </nav>
+ 
+    <main>
+ 
+        <section id="contacto">
+            <article>
+                <h2>Contacto</h2>
+ 
+                <p>
+                    ¿Querés recomendarnos un juego o tenés una consulta? Completá el
+                    formulario y te respondemos.
+                </p>
+ 
+                <form action="#" method="post">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+ 
+                    <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required>
+ 
+                    <label for="tema">Tema</label>
+                    <select id="tema" name="tema">
+                        <option>Recomendar un juego</option>
+                        <option>Consulta sobre la consola</option>
+                        <option>Otro</option>
+                    </select>
+ 
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+ 
+                    <button class="boton" type="submit">Enviar mensaje</button>
+                </form>
+            </article>
+ 
+            <article>
+                <h2>Otros datos</h2>
+ 
+                <ul>
+                    <li>Correo: hola@zonaps5.ejemplo</li>
+                    <li>Horario de respuesta: lunes a viernes, de 9 a 18 h</li>
+                    <li>Instagram y YouTube: links al final de la página</li>
+                </ul>
+            </article>
+        </section>
+ 
+    </main>
+ 
+    <footer>
+        <p>
+            <a href="https://www.instagram.com/zonaps5.ejemplo" target="_blank" rel="noopener">Instagram</a>
+            <a href="https://www.youtube.com/@zonaps5ejemplo" target="_blank" rel="noopener">YouTube</a>
+            <a href="mailto:hola@zonaps5.ejemplo">hola@zonaps5.ejemplo</a>
+        </p>
+        <p><small>&copy; 2026 Zona PS5 - Página por juanjoseklaric. Sitio escolar sin fines comerciales.</small></p>
+    </footer>
+ 
+</body>
+</html>
