@@ -9,6 +9,7 @@ body {
     padding: 0;
     color: #0B1530;
     background-color: #EEF2F9;
+    text-align: center;
 }
  
 header, nav, main, footer {
@@ -19,7 +20,6 @@ header, nav, main, footer {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
  
-/* HEADER */
 header {
     background: #0B1530;
     color: #FFFFFF;
@@ -41,7 +41,6 @@ header p {
     margin: 5px 0 0 0;
 }
  
-/* NAV (botonera) */
 nav a {
     display: inline-block;
     text-decoration: none;
@@ -53,7 +52,6 @@ nav a {
     border-radius: 5px;
 }
  
-/* CONTENIDO */
 h2, h3 {
     color: #0058B0;
 }
@@ -73,7 +71,7 @@ article img {
     width: 300px;
 }
  
-/* BOTONES dentro del contenido */
+
 article a {
     display: inline-block;
     text-decoration: none;
@@ -84,7 +82,7 @@ article a {
     border-radius: 5px;
 }
  
-/* TABLAS */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -103,7 +101,7 @@ td {
     border-bottom: 1px solid #EEF2F9;
 }
  
-/* FOOTER */
+
 footer {
     text-align: center;
     font-size: 0.9em;
