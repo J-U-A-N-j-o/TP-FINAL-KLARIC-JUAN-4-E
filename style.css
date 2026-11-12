@@ -43,11 +43,17 @@ nav a {
     border-radius: 999px;
     transition: background-color .2s, color .2s;
 }
-nav a:hover,
-nav a:focus-visible { background-color: var(--noche); color: var(--blanco); }
-nav a.activo { background-color: var(--cian); border-color: var(--cian); }
+nav a:hover,nav a:focus-visible {
+     background-color: var(--noche); color: var(--blanco); 
+}
+
+nav a.activo {
+     background-color: var(--cian); border-color: var(--cian);
+}
+
 a:focus-visible, .boton:focus-visible, input:focus-visible,
-select:focus-visible, textarea:focus-visible { outline: 3px solid var(--azul); outline-offset: 3px; }
+select:focus-visible, textarea:focus-visible {
+     outline: 3px solid var(--azul); outline-offset: 3px; }
 main { max-width: 960px; margin: 2rem auto; padding: 0 1.2rem; }
 section { margin-bottom: 2rem; }
 article {
